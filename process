@@ -1,0 +1,16 @@
+Projeto NodeJsv
+https://www.devmedia.com.br/criando-aplicacoes-web-com-angularjs-node-e-concise-css/36777
+
+Iniciar:
+1. No BE, na pasta controle-atividade, rodar: node bin\www
+
+Requisitos:
+1. Na máquina, instalar npm: https://nodejs.org/en/download/current/ (node+npm)
+2. Na máquina, instalar express: npm install -g express-generator
+
+Projeto:
+1. Criar repositório BE com readme e gitignore
+2. Clonar repositório BE
+3. No BE, rodar: express controle-atividade
+4. No BE, na pasta controle-atividade, rodar: npm install
+4. No BE, na pasta controle-atividade, rodar: npm install cors
