@@ -15,6 +15,9 @@ router.get('/', function(req, res, next) {
 /* POST Atividades */
 router.post('/', function(req, res, next) {
   atividadesServ.postAtividades(req.body, function (err, result){
+    if (err) {
+      return res.status(err).json(err);
+    }
     return res.status(200).json(result);
   });
 });
@@ -22,6 +25,9 @@ router.post('/', function(req, res, next) {
 /* UPDATE Atividades */
 router.put('/:id', function(req, res, next) {
   atividadesServ.putAtividades(req.params.id, req.body, function (err, result){
+    if (err) {
+      return res.status(err).json(err);
+    }
     return res.status(200).json(result);
   });
 });
