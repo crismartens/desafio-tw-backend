@@ -3,28 +3,18 @@
 Documentação:
 1. API: https://documenter.getpostman.com/view/3759699/TVsoFVgV
 
-### What is this repository for? ###
+Requisitos para rodar/criar o projeto:
+1. Na máquina, instalar npm: https://nodejs.org/en/download/current/ (node+npm)
+2. Na máquina, rodar: npm install -g http-server
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Instruções para iniciar o Projeto:
+1. NO FE, rodar: npm install
+2. No BE, na pasta controle-atividade, rodar: node bin\www
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Passos de criação do projeto:
+1. Criar repositório FE com readme e gitignore
+2. Clonar repositório FE
+3. No FE, rodar: npm init
+4. No FE, rodar: npm i angular --save
+5. No FE, rodar: npm i angular-route --save
+6. No FE, rodar: npm i bootstrap --save
