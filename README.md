@@ -9,7 +9,7 @@ Requisitos para rodar/criar o projeto:
 
 Instruções para iniciar o Projeto:
 1. NO FE, rodar: npm install
-2. No BE, na pasta controle-atividade, rodar: node bin\www
+2. No BE, rodar: node bin\www
 
 Passos de criação do projeto:
 1. Criar repositório FE com readme e gitignore
